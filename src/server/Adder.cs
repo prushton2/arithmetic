@@ -1,9 +1,9 @@
 ﻿
 using LogicAPI.Server.Components;
 
-namespace YesOrNand.Server
+namespace prArithmetic.Server
 {
-    public class NandGate : LogicComponent
+    public class Adder : LogicComponent
     {
         protected override void DoLogicUpdate() {
             for (int i=0; i < Inputs.Count; i++) {

@@ -7,14 +7,14 @@ using LogicWorld.Rendering.Dynamics;
 using LogicWorld.SharedCode.Components;
 using UnityEngine;
 
-/** Shamelessly sourced from the game's AndGateVariantInfo in the first release <3 */
-namespace YesOrNand.Client
+/** Shamelessly sourced from Kyle Marshall's yes-or-nand mod which is shamelessly sourced from the game's AndGateVariantInfo in the first release <3 */
+namespace prArithmetic.Client
 {
-    public class NandGateVariantInfo : PrefabVariantInfo
+    public class AdderVariantInfo : PrefabVariantInfo
     {
         private static Color24 blockColor = new Color24(50, 25, 109);
 
-        public override string ComponentTextID => "yes-or-nand.NandGate";
+        public override string ComponentTextID => "prArithmetic.Adder";
 
         public override PrefabVariantIdentifier GetDefaultComponentVariant()
         {
@@ -23,9 +23,9 @@ namespace YesOrNand.Client
 
         public override ComponentVariant GenerateVariant(PrefabVariantIdentifier identifier)
         {
-            if (identifier.OutputCount != 1)
+            if (identifier.OutputCount <= 1)
             {
-                throw new Exception("And gates must have exactly one output");
+                throw new Exception("Adder gates must have 1 or more outputs");
             }
             PlacingRules placingRules = new PlacingRules();
             placingRules.AllowFineRotation = identifier.InputCount <= 2;
@@ -96,23 +96,23 @@ namespace YesOrNand.Client
     }
 
 
-    public class NandGateVariantInfo_3 : NandGateVariantInfo
+    public class AdderVariantInfo_4 : AdderVariantInfo
     {
-        public override string ComponentTextID => "yes-or-nand.NandGate3";
+        public override string ComponentTextID => "prArithmetic.Adder4";
 
         public override PrefabVariantIdentifier GetDefaultComponentVariant()
         {
-            return new PrefabVariantIdentifier(3, 1);
+            return new PrefabVariantIdentifier(8, 4);
         }
     }
 
-    public class NandGateVariantInfo_4 : NandGateVariantInfo
-    {
-        public override string ComponentTextID => "yes-or-nand.NandGate4";
+    // public class NandGateVariantInfo_4 : NandGateVariantInfo
+    // {
+    //     public override string ComponentTextID => "yes-or-nand.NandGate4";
 
-        public override PrefabVariantIdentifier GetDefaultComponentVariant()
-        {
-            return new PrefabVariantIdentifier(4, 1);
-        }
-    }
+    //     public override PrefabVariantIdentifier GetDefaultComponentVariant()
+    //     {
+    //         return new PrefabVariantIdentifier(4, 1);
+    //     }
+    // }
 }
