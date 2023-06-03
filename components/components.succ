@@ -1,0 +1,5 @@
+Adder4:
+    column: "Arithmetic"
+    prefab: dynamic
+    placingRules: dynamic
+    logicCode: prArithmetic.Server.Adder4
