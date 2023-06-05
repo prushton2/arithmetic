@@ -6,7 +6,7 @@ using System;
 
 namespace prArithmetic
 {
-    public class Concatenator : LogicComponent
+    public class ByteDLatch : LogicComponent
     {
         protected override void DoLogicUpdate()
         {
