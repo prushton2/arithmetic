@@ -16,12 +16,12 @@ namespace prArithmetic
 
             //  output
             // 0 is y
-            // for(int i = 0; i<8; i++) {
-            //     if(Inputs[i].On != Inputs[i+8].On) {
-            //         Outputs[0].On = false;
-            //         return;
-            //     }
-            // }
+            for(int i = 0; i<8; i++) {
+                if(Inputs[i].On != Inputs[i+8].On) {
+                    Outputs[0].On = false;
+                    return;
+                }
+            }
             Outputs[0].On = true;
         }
     }

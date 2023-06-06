@@ -14,25 +14,20 @@ namespace prArithmetic
             // 0-7 is a
             // 8-15 is b
 
-            //  output
-            // 0 is y
-            // for(int i = 0; i<8; i++) {
-            //     if(Inputs[i].On != Inputs[i+8].On) {
-            //         Outputs[0].On = false;
-            //         return;
-            //     }
-            // }
-            // Outputs[0].On = true;
+            bool c1 = Add(0, Inputs[8].On);
+            bool c2 = Add(1, c1);
+            bool c3 = Add(2, c2);
+            Outputs[4].On = Add(3, c3);
         }
         
 
-        private void Add(int index, ref bool carry)
+        private bool Add(int index, bool carry)
         {
             bool a = Inputs[index].On;
-            bool b = Inputs[index + 8].On;
+            bool b = Inputs[index + 4].On;
             bool ab = a ^ b;
             Outputs[index].On = ab ^ carry;
-            carry = (ab & carry) | (a & b);
+            return (ab & carry) | (a & b);
         }
     }
 }
