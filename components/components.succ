@@ -517,7 +517,7 @@ Concatenator:
                     y: 1
                     z: 1
                 position:
-                    x: 0
+                    x: -0.5
                     y: 0
                     z: 0
                 rotation:
@@ -528,6 +528,16 @@ Concatenator:
             -
                 length: 0.6
                 position:
+                    x: -2.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
                     x: -1.75
                     y: 0.5
                     z: -0.5
@@ -598,17 +608,7 @@ Concatenator:
             -
                 length: 0.6
                 position:
-                    x: 1.75
-                    y: 0.5
-                    z: -0.5
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
-            -
-                length: 0.6
-                position:
-                    x: -1.75
+                    x: -2.25
                     y: 1
                     z: 0
                 rotation:
@@ -619,6 +619,16 @@ Concatenator:
             -
                 startOn: false
                 position:
+                    x: -2.25
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 0
+                    y: 90
+                    z: 90
+            -
+                startOn: false
+                position:
                     x: -1.75
                     y: 0.5
                     z: 0.5
@@ -680,16 +690,6 @@ Concatenator:
                 startOn: false
                 position:
                     x: 1.25
-                    y: 0.5
-                    z: 0.5
-                rotation:
-                    x: 0
-                    y: 90
-                    z: 90
-            -
-                startOn: false
-                position:
-                    x: 1.75
                     y: 0.5
                     z: 0.5
                 rotation:
