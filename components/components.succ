@@ -910,3 +910,348 @@ Adder4:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
+
+ASCIIDecoder:
+    column: Arithemtic
+    category: Gates
+    prefab:
+        blocks:
+            -
+                color:
+                    r: 153
+                    g: 11
+                    b: 139
+                scale:
+                    x: 4
+                    y: 5
+                    z: 1
+                position:
+                    x: 0.5
+                    y: 0
+                    z: 0
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 0
+        inputs:
+            -
+                length: 0.6
+                position:
+                    x: 2.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 1.75
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 1.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 0.75
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 0.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: -0.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: -0.75
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: -1.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+        outputs:
+            -
+                startOn: false
+                position:
+                    x: 2 
+                    y: 4.5
+                    z: 0.5
+                rotation:
+                    x: 0
+                    y: 90
+                    z: 90
+            -
+                startOn: false
+                position:
+                    x: 1 
+                    y: 4.5
+                    z: 0.5
+                rotation:
+                    x: 0
+                    y: 90
+                    z: 90
+            -
+                startOn: false
+                position:
+                    x: 0 
+                    y: 4.5
+                    z: 0.5
+                rotation:
+                    x: 0
+                    y: 90
+                    z: 90
+            -
+                startOn: false
+                position:
+                    x: -1
+                    y: 4.5
+                    z: 0.5
+                rotation:
+                    x: 0
+                    y: 90
+                    z: 90
+            
+            -
+                startOn: false
+                position:
+                    x: 2 
+                    y: 3.5
+                    z: 0.5
+                rotation:
+                    x: 0
+                    y: 90
+                    z: 90
+            -
+                startOn: false
+                position:
+                    x: 1 
+                    y: 3.5
+                    z: 0.5
+                rotation:
+                    x: 0
+                    y: 90
+                    z: 90
+            -
+                startOn: false
+                position:
+                    x: 0 
+                    y: 3.5
+                    z: 0.5
+                rotation:
+                    x: 0
+                    y: 90
+                    z: 90
+            -
+                startOn: false
+                position:
+                    x: -1
+                    y: 3.5
+                    z: 0.5
+                rotation:
+                    x: 0
+                    y: 90
+                    z: 90
+
+
+
+            -
+                startOn: false
+                position:
+                    x: 2 
+                    y: 2.5
+                    z: 0.5
+                rotation:
+                    x: 0
+                    y: 90
+                    z: 90
+            -
+                startOn: false
+                position:
+                    x: 1 
+                    y: 2.5
+                    z: 0.5
+                rotation:
+                    x: 0
+                    y: 90
+                    z: 90
+            -
+                startOn: false
+                position:
+                    x: 0 
+                    y: 2.5
+                    z: 0.5
+                rotation:
+                    x: 0
+                    y: 90
+                    z: 90
+            -
+                startOn: false
+                position:
+                    x: -1
+                    y: 2.5
+                    z: 0.5
+                rotation:
+                    x: 0
+                    y: 90
+                    z: 90
+            
+
+            -
+                startOn: false
+                position:
+                    x: 2 
+                    y: 1.5
+                    z: 0.5
+                rotation:
+                    x: 0
+                    y: 90
+                    z: 90
+            -
+                startOn: false
+                position:
+                    x: 1 
+                    y: 1.5
+                    z: 0.5
+                rotation:
+                    x: 0
+                    y: 90
+                    z: 90
+            -
+                startOn: false
+                position:
+                    x: 0 
+                    y: 1.5
+                    z: 0.5
+                rotation:
+                    x: 0
+                    y: 90
+                    z: 90
+            -
+                startOn: false
+                position:
+                    x: -1
+                    y: 1.5
+                    z: 0.5
+                rotation:
+                    x: 0
+                    y: 90
+                    z: 90
+
+
+
+            -
+                startOn: false
+                position:
+                    x: 2 
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 0
+                    y: 90
+                    z: 90
+            -
+                startOn: false
+                position:
+                    x: 1 
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 0
+                    y: 90
+                    z: 90
+            -
+                startOn: false
+                position:
+                    x: 0 
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 0
+                    y: 90
+                    z: 90
+            -
+                startOn: false
+                position:
+                    x: -1
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 0
+                    y: 90
+                    z: 90
+    logicCode: prArithmetic.ASCIIDecoder
+    placingRules:
+        offsetDimensions:
+            x: 2
+            y: 1
+        defaultOffset:
+            x: 0
+            y: 0
+        offsetScale:
+            x: 1
+            y: 1
+        cornerMidpoint:
+            x: 0
+            y: 0
+        gridPlacingDimensions:
+            x: 4
+            y: 1
+        allowWorldRotation: true
+        allowFineRotation: true
+        canBeFlipped: false
+        flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
+        primaryGridPositions:
+            -
+                x: 0.5
+                y: 0.5
+        secondaryGridPositions:
+        primaryEdgePositions:
+        secondaryEdgePositions:
+
