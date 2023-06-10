@@ -6,7 +6,7 @@ prarithmetic is a Logic World mod that was originally supposed to add a lot of m
 Takes 2 4 bit numbers and a carry and returns a 4 bit sum and a carry
 
 ## ASCIIDecoder
-Takes in the ASCII code for a capital letter or number and will return a display of the number.
+Takes in the ASCII code for a character from A-Z or 0-9 and will display the given character.
 
 ## ByteDLatch
 Works the same as the vanilla D latch, but stores 1 byte in half the space. The top input is the signal.
@@ -29,4 +29,4 @@ Ex: 0010 (2), 0101 (5), 0101 (5) will become 11111111 (255)
 Will output true if the top row of inputs matches the bottom row of inputs
 
 ## Multiplier4
-Not implemented Yet
+Not implemented Yet.
