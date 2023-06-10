@@ -937,57 +937,7 @@ ASCIIDecoder:
             -
                 length: 0.6
                 position:
-                    x: 2.25
-                    y: 0.5
-                    z: -0.5
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
-            -
-                length: 0.6
-                position:
-                    x: 1.75
-                    y: 0.5
-                    z: -0.5
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
-            -
-                length: 0.6
-                position:
-                    x: 1.25
-                    y: 0.5
-                    z: -0.5
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
-            -
-                length: 0.6
-                position:
-                    x: 0.75
-                    y: 0.5
-                    z: -0.5
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
-            -
-                length: 0.6
-                position:
-                    x: 0.25
-                    y: 0.5
-                    z: -0.5
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
-            -
-                length: 0.6
-                position:
-                    x: -0.25
+                    x: -1.25
                     y: 0.5
                     z: -0.5
                 rotation:
@@ -1007,7 +957,57 @@ ASCIIDecoder:
             -
                 length: 0.6
                 position:
-                    x: -1.25
+                    x: -0.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 0.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 0.75
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 1.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 1.75
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 2.25
                     y: 0.5
                     z: -0.5
                 rotation:
